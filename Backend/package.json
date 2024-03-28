@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend of the house pricing prediction project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "production": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joancf1997/California_house_prediction.git"
+  },
+  "author": "Jose Andres Castaneda Forno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joancf1997/California_house_prediction/issues"
+  },
+  "homepage": "https://github.com/Joancf1997/California_house_prediction#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
