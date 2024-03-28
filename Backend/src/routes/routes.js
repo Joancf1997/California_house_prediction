@@ -3,7 +3,8 @@ var router = express.Router();
 
 // Analytics controller
 const analytics = require('../Controllers/AnalyticsController.js');
-router.get('/analytics', analytics.landing);
+router.get('/load', analytics.loading);
+router.get('/insert', analytics.insert);
 
 
 module.exports = router;
